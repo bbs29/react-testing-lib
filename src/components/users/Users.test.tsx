@@ -1,5 +1,5 @@
 import React from "react";
-import { render, wait, screen, cleanup } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import UsersComponent from "./Users";
 import { IUserModel } from "./Users.model";
 import * as UserService from "./Users.service";
